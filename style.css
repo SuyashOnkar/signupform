@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --color-theme: rgba(248,162,217,255);
+    --background-theme: rgba(17,13,14,255);
+    --a: rgba(241, 241, 241, 0.863);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    background-color: var(--background-theme);
+    margin:0;
+    border:0;
+    color: white;
+}
+
+#hidden {
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
+
+
+
+.invis {
+    display:none;
+}
+.vis {
+    display: initial;
+    position: relative;
+    color: red;
+}
+
+.cpassword::after {
+    content: "AAAAA"
+}
+
+
+.container {
+    display: flex;
+}
+
+.hero {
+    margin: 100px 0;
+}
+
+.signupimg {
+    width: 800px;
+    height: 100vh;
+    background-image: url(yigit-arisoy-D1pBiBgkD3w-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+.signupimg p {
+    
+    position: relative;
+    bottom: 0;
+    top: 95vh;
+    left: 150px;
+    color: white;
+    font-size: 0.8rem;
+    
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+.white-container {
+    background-color: rgba(255, 255, 255, 0.938);
+    color:black;
+    padding: 15px 0;
+    padding-bottom: 30px;
+    border-radius: 5px;    
+
+}
+
+.inputfields {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+
+.text, .inputfields, h3 {
+    padding:10px 30px;
+}
+
+.text {
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+h3 {
+    margin: 0;
+    padding-bottom: 0;
+}
+
+label {
+    font-size: 0.8rem;
+    padding-top: 12px;
+    padding-bottom: 2px;
+}
+
+input {
+    padding: 8px 8px;
+    border: 0.3px solid rgb(188, 176, 176);
+    border-radius: 5px;
+}
+
+input:hover {
+}
+
+input:valid {
+    border: 1px solid rgb(88, 213, 88);
+}
+
+input:invalid {
+    border: 1px solid rgba(255, 0, 0, 0.377);
+}
+
+.submit {
+    margin: 20px 30px;
+}
+
+button {
+    font-family: sans-serif;
+    padding: 10px 40px;
+    background-color: var(--color-theme);
+    border: 0.7px solid black;
+    border-radius: 5px;
+    color: white;
+    font-
+}
+
+button {
+    cursor: pointer;
+}
+
+span {
+    color: var(--color-theme);
+    font-weight: bold;
+    cursor: pointer;
+}
+
