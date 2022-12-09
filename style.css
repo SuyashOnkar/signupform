@@ -54,6 +54,33 @@ body {
 
 }
 
+.logocontainer {
+    background-color: rgba(0, 0, 0, 0.786);
+    height: 120px;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logocontainer img {
+    height: 120px;
+    margin-left: 150px;
+    
+}
+
+
+
+.logocontainer h2 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    font-size: 2rem;
+    left: 260px;
+    
+}
+
+
 .signupimg p {
     
     position: relative;
@@ -135,7 +162,7 @@ button {
     border: 0.7px solid black;
     border-radius: 5px;
     color: white;
-    font-
+    
 }
 
 button {
